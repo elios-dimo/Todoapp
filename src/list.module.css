@@ -1,0 +1,56 @@
+li {
+  list-style: none;
+  font-size: 36px;
+}
+
+.list {
+  padding: 10px;
+}
+
+.listgrid {
+  display: grid;
+  grid-template-columns: 40px 320px 80px;
+}
+
+.checkin {
+  margin-right: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.itemtitle {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 30px;
+  justify-self: center;
+}
+
+.delbut {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin-top: 8px;
+  border-radius: 6px;
+  padding: 6px;
+  background: #f4f2de;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  transition: all 0.3s all;
+}
+
+.delbut:hover {
+  transform: scale(1.06);
+}
+
+.list li:has(input:checked) {
+  text-decoration-line: line-through;
+  color: hsl(200, 20%, 40%);
+}
+
+.delbut:active,
+.delbut:hover {
+  background: #e9b384;
+  color: #7c9d96;
+}

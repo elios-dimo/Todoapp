@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-content: center;
+  gap: 0.6em;
+}
+
+label {
+  font-size: 48px;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  color: rgb(38, 38, 38);
+}
+
+.itemTodo {
+  background: #f4f2de;
+  color: rgb(38, 38, 38);
+  min-width: 230px;
+  height: 40px;
+  font-size: 24px;
+  border-color: #e9b384;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 18px 12px;
+}
+
+.itemTodo:focus {
+  outline: none !important;
+  border-color: #e9b384;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+.addbut {
+  background: #f4f2de;
+  color: rgb(38, 38, 38);
+  border-color: #e9b384;
+  border-radius: 8px;
+  font-size: 28px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.addbut:hover {
+  transform: scale(1.04);
+}
+
+.addbut:active {
+  background: #e9b384;
+}
