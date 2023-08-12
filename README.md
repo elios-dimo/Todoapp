@@ -9,7 +9,7 @@ The project was built in React js making use of html,css and javascript knowledg
 # What I learned and practiced 
 - React js components, props
 - local storage
-- useState
+- useState, useEffect
 
 
 
